@@ -21,6 +21,10 @@ So training was pretty challenging because of the conditions laid out by you peo
 Then you told me other frameworks are allowed so I've been making models with  pytorch and fastai for the last 3 hours[not the best results :(]
 
 ### Approach I - Training with TensorFlow
+Model - !['tfmodel'](https://media.discordapp.net/attachments/1040704720844640377/1040705424434921584/image.png)
+
+4 layers 
+
 So the best validation accuracy we got with tensorflow was 34% we tried everything but it didn't work. Also this weird problem with it being capped at 50% I swear we tried everything :(( 
 
 ![tf](https://cdn.discordapp.com/attachments/861575248603381760/1040700639409340416/unknown.png)
@@ -28,7 +32,10 @@ So the best validation accuracy we got with tensorflow was 34% we tried everythi
 
 ### Approach II - Training with fast.ai
 
-!["fastai layers"](https://cdn.discordapp.com/attachments/1040704720844640377/1040704911580598324/image.png)
+Model - !["fastai layers"](https://cdn.discordapp.com/attachments/1040704720844640377/1040704911580598324/image.png)
+2 layers
+
+
 This one is a better approach but fast.ai works best for transfer learning tasks.
 !["faaaaaaaaast"](https://cdn.discordapp.com/attachments/861575248603381760/1040703295456559186/image.png)
 
@@ -40,6 +47,7 @@ PS - Resnet50 gave 80% validation accuracy right off the bat
 
 Model - !['torchmodel'](https://cdn.discordapp.com/attachments/861575248603381760/1040704549767360556/image.png)
 
+4 layers
 
 So training with PyTorch was our final approach we managed to get ~ 45% validation accuracy with this. IT was pretty straight forward and didn't take much time to train as well therefore, we decided to submit this model.
 
