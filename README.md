@@ -33,6 +33,7 @@ So the best validation accuracy we got with tensorflow was 34% we tried everythi
 ### Approach II - Training with fast.ai
 
 Model - !["fastai layers"](https://cdn.discordapp.com/attachments/1040704720844640377/1040704911580598324/image.png)
+
 2 layers
 
 
