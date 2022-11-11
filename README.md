@@ -1,3 +1,12 @@
+## Directions to use 
+Download the following datasets into the same folder -
+
+* [Dog Breed Identification](https://www.kaggle.com/c/dog-breed-identification) (remove test/ and sample_submission/)
+* [Cat Breeds Dataset](https://www.kaggle.com/datasets/ma7555/cat-breeds-dataset) (rename to cat_ds)
+* [Cats and Dogs Breeds Classification Oxford Dataset](https://www.kaggle.com/datasets/zippyz/cats-and-dogs-breeds-classification-oxford-dataset)
+(put images/ into a new folder named cat_dog_breed)
+
+
 # ExML Finals Writeup
 Prepared by Samkit Jain, Aarav Kaushik [DPS Bhopal]
 
@@ -6,6 +15,7 @@ Preparing the dataset wasn't much of a problem since many open source datasets e
 
 * [Dog Breed Identification](https://www.kaggle.com/c/dog-breed-identification)
 * [Cat Breeds Dataset](https://www.kaggle.com/datasets/ma7555/cat-breeds-dataset)
+* [Cats and Dogs Breeds Classification Oxford Dataset](https://www.kaggle.com/datasets/zippyz/cats-and-dogs-breeds-classification-oxford-dataset)
 
 ## Data preprocessing
 To increase the size of data we scraped the internet for around 400 images and then augmented them using tensorflow keras
@@ -33,7 +43,6 @@ So the best validation accuracy we got with tensorflow was 34% we tried everythi
 ### Approach II - Training with fast.ai
 
 Model - !["fastai layers"](https://cdn.discordapp.com/attachments/1040704720844640377/1040704911580598324/image.png)
-
 2 layers
 
 
