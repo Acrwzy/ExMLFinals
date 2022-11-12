@@ -62,7 +62,7 @@ Model - !['torchmodel'](https://cdn.discordapp.com/attachments/86157524860338176
 
 4 layers
 
-So training with PyTorch was our final approach we managed to get ~ 45% validation accuracy with this. IT was pretty straight forward and didn't take much time to train as well therefore, we decided to submit this model.
+So training with PyTorch was our final approach we managed to get ~ 45% validation accuracy with this and a shit ton of overfitting.It was pretty straight forward and didn't take much time to train as well therefore, we decided to submit this model.
 
 !['toorch'](https://media.discordapp.net/attachments/861575248603381760/1040703646146494565/image.png)
 
