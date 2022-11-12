@@ -6,6 +6,9 @@ Download the following datasets into the same folder -
 * [Cats and Dogs Breeds Classification Oxford Dataset](https://www.kaggle.com/datasets/zippyz/cats-and-dogs-breeds-classification-oxford-dataset)
 (put images/ into a new folder named cat_dog_breed)
 
+OR you can just download the final dataset and run the notebooks -
+
+* [final dataset](https://www.kaggle.com/datasets/samkitjain101/cat-dog-breedz)
 
 # ExML Finals Writeup
 Prepared by Samkit Jain, Aarav Kaushik [DPS Bhopal]
