@@ -1,21 +1,3 @@
-# import re
-# import requests
-# from bs4 import BeautifulSoup
-# from urllib.parse import urlparse
-# import os
-
-
-# def download_google(word):
-# 	url = 'https://www.google.com/search?q=' + word + '&client=opera&hs=cTQ&source=lnms&tbm=isch&sa=X&ved=0ahUKEwig3LOx4PzKAhWGFywKHZyZAAgQ_AUIBygB&biw=1920&bih=982'
-# 	page = requests.get(url).text
-# 	soup = BeautifulSoup(page, 'html.parser')
-# 	for raw_img in soup.find_all('img'):
-# 		link = raw_img.get('src')
-# 		os.system("cd train/minecraft && wget " + link)
-
-# word = input("Input key word: ")
-# download_google(word)
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
